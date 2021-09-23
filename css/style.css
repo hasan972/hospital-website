@@ -156,6 +156,17 @@ section:nth-child(even){
     line-height: 1.8;
     padding: 1rem 0;
 }
+.serdec p {
+    font-size: 15px;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 30px;
+    text-align: center;
+    margin-top: -38px;
+}
+.pad{
+    padding: 12px;
+}
 
 .icons-container{
     display: grid;
