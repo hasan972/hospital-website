@@ -91,21 +91,21 @@ section:nth-child(even){
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fff;
+    background: #000;
 }
 
-.header .logo{
+.header .logo {
     font-size: 2.5rem;
-    color: var(--black);
+    color: #ffff;
 }
 
 .header .logo i{
     color: var(--green);
 }
 
-.header .navbar a{
+.header .navbar a {
     font-size: 1.7rem;
-    color: var(--light-color);
+    color: #ffffff;
     margin-left: 2rem;
 }
 
@@ -143,18 +143,20 @@ section:nth-child(even){
     flex:1 1 45rem;
 }
 
-.home .content h3{
+.home .content h3 {
     font-size: 4.5rem;
-    color:var(--black);
+    color: var(--black);
     line-height: 1.8;
     text-shadow: var(--text-shadow);
+    text-align: center;
 }
 
-.home .content p{
+.home .content p {
     font-size: 1.7rem;
-    color:var(--light-color);
+    color: var(--light-color);
     line-height: 1.8;
     padding: 1rem 0;
+    text-align: center;
 }
 .serdec p {
     font-size: 15px;
@@ -547,9 +549,11 @@ section:nth-child(even){
         font-size: 55%;
     }
 
-    .header{
-        padding: 2rem;
-    }
+    @media (max-width: 991px)
+.header {
+    padding: 2rem;
+    background-color: #333;
+}
 
     section{
         padding:2rem;
