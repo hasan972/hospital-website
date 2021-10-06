@@ -108,7 +108,7 @@ alert('User already registered. Please try again');
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img alt="Brand" src="assets/img/logo.png" height="40px"></a>
+                    <a class="navbar-brand" href="index.php"><img alt="Brand" src="assets/img/logo.PNG" height="40px"></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -455,7 +455,7 @@ alert('User already registered. Please try again');
         <!-- footer start -->
         <div class="copyright-bar bg-black">
             <div class="container">
-                <p class="pull-left small">© Projectworlds <a href ="https://projectworlds.in/">Get More Projects </a></p>
+                <p class="pull-left small">© abicina <a href ="">---Get More section</a></p>
                 <p class="pull-right small"><a href="adminlogin.php">admin</a></p>
             </div>
         </div>
