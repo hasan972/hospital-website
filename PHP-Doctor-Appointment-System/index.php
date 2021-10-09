@@ -456,7 +456,7 @@ alert('User already registered. Please try again');
         <div class="copyright-bar bg-black">
             <div class="container">
                 <p class="pull-left small">© abicina <a href ="">---Get More section</a></p>
-                <p class="pull-right small"><a href="adminlogin.php">admin</a></p>
+                <p class="pull-right small"><a href="adminlogin.php">Admin / Doctor</a></p>
             </div>
         </div>
         <!-- footer end -->
