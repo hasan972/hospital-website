@@ -87,7 +87,7 @@ $widowed = "checked";
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="patient.php"><img alt="Brand" src="assets/img/logo.png" height="40px"></a>
+					<a class="navbar-brand" href="patient.php"><img alt="Brand" src="assets/img/logo.PNG" height="40px"></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -130,7 +130,7 @@ $widowed = "checked";
 						<div class="col-md-3 col-sm-3">
 							
 							<div class="user-wrapper">
-								<img src="assets/img/1.jpg" class="img-responsive" />
+								<img src="assets/img/250x250.png" class="img-responsive" />
 								<div class="description">
 									<h4><?php echo $userRow['patientFirstName']; ?> <?php echo $userRow['patientLastName']; ?></h4>
 									<h5> <strong> Website Designer </strong></h5>
