@@ -133,9 +133,9 @@ header("Location: patient/patient.php");
 								<img src="assets/img/1.jpg" class="img-responsive" />
 								<div class="description">
 									<h4><?php echo $userRow['patientFirstName']; ?> <?php echo $userRow['patientLastName']; ?></h4>
-									<h5> <strong> Website Designer </strong></h5>
+									<h5> <strong>  </strong></h5>
 									<p>
-										Pellentesque elementum dapibus convallis.
+										
 									</p>
 									<hr />
 									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Update Profile</button>
@@ -157,7 +157,7 @@ header("Location: patient/patient.php");
 												<div class="panel-body">
 													
 													Patient Name: <?php echo $userRow['patientFirstName'] ?> <?php echo $userRow['patientLastName'] ?><br>
-													Patient IC: <?php echo $userRow['icPatient'] ?><br>
+													Patient Account No: <?php echo $userRow['icPatient'] ?><br>
 													Contact Number: <?php echo $userRow['patientPhone'] ?><br>
 													Address: <?php echo $userRow['patientAddress'] ?>
 												</div>
